@@ -14,7 +14,7 @@ imc=0
 if peso>0 and talla>0:
     imc=peso/(talla*talla)
     st.metric("IMC",f"{imc:.2f}")
-fecha=st.date_input("Fecha",datetime.date.today()
+fecha=st.date_input("Fecha",datetime.date.today())
 obs=st.text_area("Observaciones")
 if st.button("GENERAR FICHA"):
     st.balloons()
