@@ -1,6 +1,6 @@
-import streamlit as st
-
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+import streamlist as st
+st.title ("ONG SALUD ES VIDA PERU")
+st.header("PROGRAMA DE SALUD PREVENTIVO NUTRICIONAL")
+st.success ("App Oficial sede Peru")
+n=st.text_input ("Nombre del Paciente")
+st.button ("Generar Ficha")
